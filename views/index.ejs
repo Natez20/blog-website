@@ -1,0 +1,25 @@
+<%- include("partials/header.ejs") %>
+
+<% if (posts.length === 0) { %>
+      <div class="alert alert-info">No posts yet. Be the first to write one!</div>
+    <% } else { %>
+      <div class="row g-4">
+        <% posts.forEach((post, i) => { %>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title"><%= post.title %></h5>
+                <p class="card-text"><%= post.content %></p>
+              </div>
+              <div class="card-footer d-flex justify-content-end gap-2">
+                <a href="/edit/<%= i %>" class="btn btn-warning btn-sm">Edit</a>
+              </div>
+            </div>
+          </div>
+        <% }) %>
+      </div>
+    <% } %>
+
+
+
+<%- include("partials/footer.ejs") %>

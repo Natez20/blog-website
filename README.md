@@ -14,7 +14,7 @@ Users can **create**, **view**, **edit**, and **delete** blog posts — all in-m
 
 ## 📦 Tech Stack
 - **Backend:** Node.js + Express
-- **Frontend:** EJS templates + Bootstrap 5
+- **Frontend:** EJS + Bootstrap 5
 - **Runtime:** In-memory storage (no database)
 - **Version Control:** Git + GitHub
 

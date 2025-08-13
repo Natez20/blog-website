@@ -1,7 +1,7 @@
 # 📝 Blog Website
 
 A simple blog web application built with **Node.js**, **Express**, **EJS**, and **Bootstrap**.  
-Users can **create**, **view**, **edit**, and **delete** blog posts — all in-memory.
+Users can **create**, **view**, **edit**, and **delete** blog posts all in-memory.
 
 ## 🚀 Features
 - ✏️ Add new blog posts
